@@ -1,0 +1,73 @@
+body{
+    background: url('coffee-beans-background-only.jpg') no-repeat center center fixed;
+  
+    background-size: cover;
+}
+#header-container{
+    display: flex;
+    direction:column;
+    background: rgba(19, 11, 1, 0.479)  ;
+    
+}
+
+#menu-container{
+    display: grid;
+    padding-top:10px;
+    padding-left:20px;
+    width: 200px ;
+    height: 550px;
+    background: rgba(19, 11, 1, 0.479)  ;
+    
+    border:2px solid tomato;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto auto  ;
+    float:left;
+    margin-right: 200px;
+}
+#titles{
+    color:thistle;
+    font-family:cursive;
+    margin-right: 10px;
+    margin-top:15px;
+}
+#website-name{
+    color:tomato;
+    font-family: Lucida Handwriting;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-right: 500px;
+    margin-top:20px;
+}
+#footer{
+    width: 100%;
+    height: 125px;
+    float:left;
+    background: rgba(19, 11, 1, 0.479)  ;
+    color:thistle;
+    font-family: Lucida Handwriting;
+    font-weight: bolder;
+    font-size: large;
+   
+}
+#page-container{
+    padding: 30px;
+    width: 650px;
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 450px auto ;
+    grid-template-rows: auto auto ;
+    background: rgb(232,234,241);
+    background: radial-gradient(circle, rgba(232,234,241,1) 0%, rgba(154,62,27,1) 100%);
+    background:rgba(19, 11, 1, 0.692)  ;
+    border:4px double tomato;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    
+}
+#page-button{
+   display: flex;
+   flex-direction: column;
+   color:tomato;
+   margin: 60px;
+   
+   width:max-content; 
+}

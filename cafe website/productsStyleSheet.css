@@ -1,0 +1,72 @@
+#main-page{
+    width:75%;
+    height: 600px;
+    background: rgba(0, 0, 8, 0.438);
+    margin-left:300px; 
+    
+}
+#page-header{
+    display: flex;
+    flex-direction: row;
+    background: rgba(210, 138, 30, 0.308);
+}
+#page-title{
+    color:tomato;
+    font-family: Lucida Handwriting;
+    font-weight: bolder;
+    font-size: large; 
+}
+#page-info{
+    color:cornsilk;
+}
+#row2{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+#search-field{
+    width:85%;
+    height: 20px;
+    background: rgba(228, 142, 13, 0.308);
+    margin-right: 20px;
+}
+#add-product{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 99, 71, 0.699);
+    color:cornsilk;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#icon{
+    margin:5px;
+}
+#label{
+    margin:7px;
+}
+#form-search{
+    width:85%;
+}
+#tablediv{
+    height:400px ;
+    overflow: scroll;
+}
+
+table{
+    color:white;
+    font-size: 20px;
+    text-align:center;
+    
+}
+th{
+    background: rgb(96 58 22);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(212 101 33 / 70%);
+}
+tr:nth-child(odd){
+    background-color:  rgb(233 182 6 / 70%);
+}
